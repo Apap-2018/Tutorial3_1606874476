@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Updating Pilot</title>
+</head>
+<body>
+    <h1 th:text="'Pilot with name '+${pilot.name}+' updated!'"></h1>
+    <h3 th:text="${pilot.id}"></h3>
+    <h3 th:text="${pilot.licenseNumber}"></h3>
+    <h3 th:text="${pilot.name}"></h3>
+    <h3 th:text="${pilot.flyHour}"></h3>
+</body>
+</html>
